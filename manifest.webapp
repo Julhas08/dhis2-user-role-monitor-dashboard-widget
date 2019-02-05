@@ -1,0 +1,22 @@
+{
+    "name": "User's Role Monitor Widget",
+    "description": "Widget for getting user info from specific user role.",
+    "version": "1.0",
+    "appType": "DASHBOARD_WIDGET",
+    "launch_path": "./index.html",
+    "default_locale": "en",
+    "activities": {
+        "dhis": {
+            "href": "*"
+        }
+    },
+    "developer": {
+        "name": "Julhas Sujan",
+        "email": "julhaspustcse@gmail.com",
+        "url": "http://dhis2trainingland.com/",
+        "company": "UiO"
+    },
+    "icons": {
+        "48": "./userlist.png"
+    }
+}

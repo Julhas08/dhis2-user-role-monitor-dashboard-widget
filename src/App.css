@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.main-area {
+    margin-top: 10px;
+    padding: 0px 15px;
+}
+.panel-white {
+    background: hsl(210, 7%, 89%) none repeat scroll 0 0;
+    border-radius: 3px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    white-space: normal;
+    margin-bottom: 7px;
+    padding-bottom: 23px;
+}
+.panel-heading {
+    border-bottom: 1px solid hsla(0, 0%, 0%, 0);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    padding: 0px 5px;
+}
+
+.panel-body {
+    background: hsl(0, 0%, 100%) none repeat scroll 0 0;
+    margin: 0 7px 14px 5px;
+    min-height: 500px;
+    padding-bottom: 37px;
+}
+body {
+    background-color: #0079BF;
+    color: hsl(0, 0%, 40%);
+    font-size: 13px;
+}
+.table-bordered {
+  border: 1px solid #eceeef;
+}
+.table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 1rem;
+}
+.table-header-bg thead {
+  background-color: #276696;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: bold;
+  height: 40px;
+}
+.table-header-bg thead {
+  background: rgba(0, 0, 0, 0) linear-gradient(to bottom, #2e90bd 0%, #2e90bd 50%, #0078ae 51%, #3e99c2 100%) repeat scroll 0 0;
+}
+table {
+    border-collapse: collapse;
+    background-color: transparent;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
